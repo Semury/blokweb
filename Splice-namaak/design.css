@@ -1,0 +1,174 @@
+body {
+  font-family: 'Inter', 'sans-serif';
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background-color:#f1f609;
+}
+
+.largecontainer {
+  width: 100%;
+    max-width: 75rem;
+    color: var(--light-grey-bg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+}
+
+nav{
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: white;
+  
+}
+
+header{
+  display: flex;
+  background-color: white;
+}
+
+h1{
+  font-size: 3em;
+  text-align: center;
+  font-weight: 900;
+}
+p{
+  text-decoration: underline;
+  text-align: center;
+  vertical-align: top;
+}
+
+nav img{
+  width: 2em;
+  height: 2em;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+
+section a{
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+ /* Stijl voor Knop 1 */
+ section a#knop1 {
+  color: gray;
+  transition: color 0.3s ease; /* Adding transition for smooth color change */
+}
+
+nav a#knop1:hover {
+  color: white; /* New color on hover */
+}
+
+/* Stijl voor Knop 2 */
+section a#knop2 {
+  background-color: white;
+  color: black;
+  padding: 8px 12px;
+  border-radius: 2em;
+}
+
+/*
+@media (max-width: 600px) {
+  section a#knop2 {
+*/
+  
+
+/* Styles for the search bar container */
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  
+}
+
+/* Styles for the search input */
+.search-input {
+  width: 300px;
+  height: 45px;
+  border: 0.2em solid black;
+  border-radius: 50px 50px 50px 50px; /* Rounded corners on the left side */
+}
+
+/* Styles for the search button */
+.search-button {
+  position: absolute;
+  right: 0.3em;
+  top:0.32em;
+  background-color: blue;
+  color: white;
+  border: none;
+  height: 43px;
+  width: 4.4em;
+  border-radius: 50px 50px 50px 50px; /* Rounded corners on the right side */
+  cursor: pointer;
+}
+
+/* Styles for the search icon image */
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+
+.largecontainer h3 {
+  margin-bottom: 10px;
+  text-align: left;
+
+}
+
+
+.genre-row {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap onto a new line */
+  justify-content: center; /* Optional: Center the buttons horizontally */
+  margin-bottom: 15px;
+  max-width: 35em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.genre-button {
+  color: #48494f;
+    -webkit-text-stroke-color: #48494f;
+    background-color: transparent;
+    border: 1px solid #63656d;
+    
+    font-size: .8rem;
+  padding: 0.7em;
+  border-radius: 1em; /* Afgeronde hoeken */
+  cursor: pointer;
+  margin: 0.3em;
+
+
+ 
+}
+
+.genre-button:hover {
+  background-color: black; /* Achtergrondkleur veranderen bij hover */
+  color: white; /* Tekstkleur veranderen bij hover */
+} 
+
+.royaltyfree {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5%;
+}
+
+.royaltyfree img {
+  width: 5em;
+  margin-bottom: 10px;
+}
+
